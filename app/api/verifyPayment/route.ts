@@ -37,3 +37,6 @@ export async function POST(req: Request) {
 // generate a signature
 // match the signatire with the returned razorpay signature
 // if (match) -> return Response as success otherwise fail
+// Variable Prefix	Accessible in	Purpose
+// NEXT_PUBLIC_	Browser + Server	Public only - exposed to client-side JavaScript 
+// No prefix (e.g., API_KEY)	Server only	Secret - never exposed to browser
